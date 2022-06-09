@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 .hero-section {
   width: 100%;
   height: calc(100vh - 120px);
@@ -80,7 +84,7 @@
   text-transform: capitalize;
 }
 
-.card-btn {
+/*.card-btn {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -95,15 +99,16 @@
   transition: 0.5s;
   cursor: pointer;
   opacity: 0;
-}
+}*/
 
-.product-card:hover .card-btn {
+/*.product-card:hover .card-btn {
   opacity: 1;
 }
 
 .card-btn:hover {
   background: #efefef;
 }
+*/
 
 .product-info {
   width: 100%;
@@ -170,13 +175,20 @@
 }
 /*--== collection ==--*/
 .collection-container {
+  margin-top: 15px;
+  padding: 30px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 5px;
+  height: 900px;
 }
 .collection {
   position: relative;
+  border: 3px solid rgba(238, 205, 163, 0.85);
+  border-radius: 5px;
+  box-shadow: 0px 0px 19px 13px rgb(238 205 163 / 85%);
 }
 .collection img {
   width: 100%;
@@ -205,4 +217,8 @@ footer {
   padding: 40px 10vw;
   padding-bottom: 80px;
   background: #383838;
+}
+
+.cards-body {
+  overflow: hidden;
 }

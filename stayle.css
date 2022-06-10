@@ -228,3 +228,51 @@ ul li a {
   height: 350px;
   position: relative;
 }
+
+/*--------------------------*/
+
+.footer {
+  text-align: center;
+}
+.footer .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}
+.footer .icons-container .icons {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer .icons-container .icons h3 {
+  font-size: 2rem;
+  color: black;
+  padding: 1rem 0;
+}
+.footer .icons-container .icons p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  color: rgb(19, 19, 19);
+  text-transform: none;
+}
+.footer .share {
+  margin: 1rem 0;
+}
+.footer .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 4.9rem;
+  color: white;
+  background: black;
+  margin: 0 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.footer .share a:hover {
+  background: rgba(238, 205, 163, 0.849);
+}
+footer {
+  padding: 0%;
+  margin: 0%;
+}
